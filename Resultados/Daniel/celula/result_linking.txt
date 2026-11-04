@@ -1,0 +1,16 @@
+/usr/bin/ld: Resultados/Daniel/celula/main.o: in function `executaJogada':
+main.c:(.text+0x977): undefined reference to `executaAcaoCelula'
+/usr/bin/ld: Resultados/Daniel/celula/mapa.o: in function `insereCelulaMapa':
+mapa.c:(.text+0x6a): undefined reference to `criaCelula'
+/usr/bin/ld: Resultados/Daniel/celula/mapa.o: in function `obtemOcupanteMapa':
+mapa.c:(.text+0x181): undefined reference to `obtemOcupanteCelula'
+/usr/bin/ld: Resultados/Daniel/celula/mapa.o: in function `retiraJogadorMapa':
+mapa.c:(.text+0x1ca): undefined reference to `obtemOcupanteCelula'
+/usr/bin/ld: mapa.c:(.text+0x1e1): undefined reference to `defineOcupanteCelula'
+/usr/bin/ld: Resultados/Daniel/celula/mapa.o: in function `moveJogadorMapa':
+mapa.c:(.text+0x24e): undefined reference to `defineOcupanteCelula'
+/usr/bin/ld: Resultados/Daniel/celula/mapa.o: in function `imprimeCelulasMapa':
+mapa.c:(.text+0x2f9): undefined reference to `imprimeCelula'
+/usr/bin/ld: Resultados/Daniel/celula/mapa.o: in function `desalocaMapa':
+mapa.c:(.text+0x345): undefined reference to `desalocaCelula'
+collect2: error: ld returned 1 exit status

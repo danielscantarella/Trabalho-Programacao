@@ -1,0 +1,77 @@
+=========== RANKING ===========
+1. AMANDA (ROSA) | casa 0 | forca 3 | xp 0
+2. BRUNA (VERDE) | casa 0 | forca 3 | xp 0
+3. CAIO (ROXO) | casa 0 | forca 3 | xp 0
+4. TIAGO (AZUL) | casa 0 | forca 3 | xp 0
+===============================
+=========== ESTADO ============
+[INICIO] <- TIAGO, BRUNA, AMANDA
+[1] VOLTA 1
+[2] VOLTA 2
+[3] VOLTA 3
+[4] VAZIA <- CAIO
+[5] VOLTA 4
+[6] VAZIA
+[7] VAZIA
+[8] OURO 1
+[9] VAZIA
+[10] VAZIA
+[FIM]
+-------------------------------
+- TIAGO: casa 0 | forca 3 | xp 0 | ouro 0
+- BRUNA: casa 0 | forca 3 | xp 0 | ouro 0
+- CAIO: casa 4 | forca 3 | xp 0 | ouro 0
+- AMANDA: casa 0 | forca 3 | xp 0 | ouro 0
+- Situacao: EM ANDAMENTO
+===============================
+=========== RANKING ===========
+1. CAIO (ROXO) | casa 4 | forca 3 | xp 0
+2. AMANDA (ROSA) | casa 0 | forca 3 | xp 0
+3. BRUNA (VERDE) | casa 0 | forca 3 | xp 0
+4. TIAGO (AZUL) | casa 0 | forca 3 | xp 0
+===============================
+=========== ESTADO ============
+[INICIO] <- TIAGO, CAIO, AMANDA
+[1] VOLTA 1
+[2] VOLTA 2
+[3] VOLTA 3
+[4] VAZIA
+[5] VOLTA 4
+[6] VAZIA <- BRUNA
+[7] VAZIA
+[8] OURO 1
+[9] VAZIA
+[10] VAZIA
+[FIM]
+-------------------------------
+- TIAGO: casa 0 | forca 3 | xp 0 | ouro 0
+- BRUNA: casa 6 | forca 3 | xp 0 | ouro 0
+- CAIO: casa 0 | forca 3 | xp 0 | ouro 0
+- AMANDA: casa 0 | forca 3 | xp 0 | ouro 0
+- Situacao: EM ANDAMENTO
+===============================
+=========== RANKING ===========
+1. BRUNA (VERDE) | casa 6 | forca 3 | xp 0
+2. AMANDA (ROSA) | casa 0 | forca 3 | xp 0
+3. CAIO (ROXO) | casa 0 | forca 3 | xp 0
+4. TIAGO (AZUL) | casa 0 | forca 3 | xp 0
+===============================
+=========== RANKING ===========
+1. BRUNA (VERDE) | casa 11 | forca 3 | xp 0
+2. CAIO (ROXO) | casa 4 | forca 3 | xp 0
+3. AMANDA (ROSA) | casa 0 | forca 3 | xp 0
+4. TIAGO (AZUL) | casa 0 | forca 3 | xp 0
+===============================
+========= RELATORIO ===========
+- Celulas do mapa: 10
+- Jogadores: 4
+- Jogadas totais: 18
+- Disputas: 1
+- Monstros derrotados: 0
+- Situacao: VENCEDOR BRUNA
+-------------------------------
+- TIAGO: jogadas 5 | disputas vencidas 0 | forca 3 | xp 0 | ouro 0
+- BRUNA: jogadas 5 | disputas vencidas 0 | forca 3 | xp 0 | ouro 0
+- CAIO: jogadas 4 | disputas vencidas 1 | forca 3 | xp 0 | ouro 0
+- AMANDA: jogadas 4 | disputas vencidas 0 | forca 3 | xp 0 | ouro 0
+===============================

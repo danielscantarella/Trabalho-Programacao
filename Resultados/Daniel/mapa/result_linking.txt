@@ -1,0 +1,32 @@
+/usr/bin/ld: Resultados/Daniel/mapa/main.o: in function `chegaNaCasa':
+main.c:(.text+0x80c): undefined reference to `obtemOcupanteMapa'
+/usr/bin/ld: main.c:(.text+0x82d): undefined reference to `moveJogadorMapa'
+/usr/bin/ld: main.c:(.text+0x86d): undefined reference to `recuaJogadorMapa'
+/usr/bin/ld: main.c:(.text+0x883): undefined reference to `moveJogadorMapa'
+/usr/bin/ld: main.c:(.text+0x8ac): undefined reference to `recuaJogadorMapa'
+/usr/bin/ld: Resultados/Daniel/mapa/main.o: in function `executaJogada':
+main.c:(.text+0x8d4): undefined reference to `obtemPosicaoFimMapa'
+/usr/bin/ld: main.c:(.text+0x8f6): undefined reference to `retiraJogadorMapa'
+/usr/bin/ld: main.c:(.text+0x931): undefined reference to `moveJogadorMapa'
+/usr/bin/ld: main.c:(.text+0x965): undefined reference to `obtemCelulaMapa'
+/usr/bin/ld: main.c:(.text+0x999): undefined reference to `recuaJogadorMapa'
+/usr/bin/ld: main.c:(.text+0x9ca): undefined reference to `moveJogadorMapa'
+/usr/bin/ld: main.c:(.text+0x9ea): undefined reference to `moveJogadorMapa'
+/usr/bin/ld: main.c:(.text+0x9ff): undefined reference to `retiraJogadorMapa'
+/usr/bin/ld: Resultados/Daniel/mapa/main.o: in function `obtemVencedorJogo':
+main.c:(.text+0xa3f): undefined reference to `obtemPosicaoFimMapa'
+/usr/bin/ld: Resultados/Daniel/mapa/main.o: in function `imprimeEstadoJogo':
+main.c:(.text+0xc82): undefined reference to `imprimeCelulasMapa'
+/usr/bin/ld: Resultados/Daniel/mapa/main.o: in function `imprimeRelatorioJogo':
+main.c:(.text+0xe7c): undefined reference to `obtemQtdCelulasMapa'
+/usr/bin/ld: Resultados/Daniel/mapa/main.o: in function `leEntradaMapa':
+main.c:(.text+0xff1): undefined reference to `insereCelulaMapa'
+/usr/bin/ld: main.c:(.text+0x1043): undefined reference to `insereCelulaMapa'
+/usr/bin/ld: main.c:(.text+0x109b): undefined reference to `insereCelulaMapa'
+/usr/bin/ld: main.c:(.text+0x10f3): undefined reference to `insereCelulaMapa'
+/usr/bin/ld: main.c:(.text+0x114b): undefined reference to `insereCelulaMapa'
+/usr/bin/ld: Resultados/Daniel/mapa/main.o:main.c:(.text+0x11a7): more undefined references to `insereCelulaMapa' follow
+/usr/bin/ld: Resultados/Daniel/mapa/main.o: in function `main':
+main.c:(.text+0x11e5): undefined reference to `criaMapa'
+/usr/bin/ld: main.c:(.text+0x1469): undefined reference to `desalocaMapa'
+collect2: error: ld returned 1 exit status

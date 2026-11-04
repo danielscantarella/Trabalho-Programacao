@@ -1,0 +1,142 @@
+=========== ESTADO ============
+[INICIO] <- MAGO
+[1] OURO 15 <- LADINO
+[2] OURO 8 <- GUERREIRO
+[3] ITEM ADAGA (P:5 F:+1) <- ARQUEIRO
+[4] MONSTRO LOBO (F:4 XP:15)
+[5] OURO 12
+[6] ITEM ESCUDO (P:20 F:+3)
+[7] MONSTRO TROLL (F:7 XP:30)
+[8] VAZIA
+[9] ITEM MACHADO (P:15 F:+4)
+[10] MONSTRO OGRO (F:8 XP:40)
+[11] OURO 30
+[12] ITEM ARCO (P:10 F:+2)
+[13] MONSTRO HIDRA (F:10 XP:80)
+[14] VAZIA
+[15] MONSTRO DRAGAO (F:12 XP:100)
+[16] VAZIA
+[FIM]
+-------------------------------
+- GUERREIRO: casa 2 | forca 4 | xp 0 | ouro 23
+- MAGO: casa 0 | forca 2 | xp 0 | ouro 0
+- LADINO: casa 1 | forca 3 | xp 0 | ouro 0
+- ARQUEIRO: casa 3 | forca 3 | xp 0 | ouro 0
+- Situacao: EM ANDAMENTO
+===============================
+=========== ESTADO ============
+[INICIO]
+[1] OURO 15
+[2] OURO 8 <- LADINO
+[3] ITEM ADAGA (P:5 F:+1) <- MAGO
+[4] MONSTRO LOBO (F:4 XP:15) <- GUERREIRO
+[5] OURO 12
+[6] ITEM ESCUDO (P:20 F:+3) <- ARQUEIRO
+[7] MONSTRO TROLL (F:7 XP:30)
+[8] VAZIA
+[9] ITEM MACHADO (P:15 F:+4)
+[10] MONSTRO OGRO (F:8 XP:40)
+[11] OURO 30
+[12] ITEM ARCO (P:10 F:+2)
+[13] MONSTRO HIDRA (F:10 XP:80)
+[14] VAZIA
+[15] MONSTRO DRAGAO (F:12 XP:100)
+[16] VAZIA
+[FIM]
+-------------------------------
+- GUERREIRO: casa 4 | forca 4 | xp 15 | ouro 23
+- MAGO: casa 3 | forca 2 | xp 0 | ouro 0
+- LADINO: casa 2 | forca 3 | xp 0 | ouro 8
+- ARQUEIRO: casa 6 | forca 3 | xp 0 | ouro 12
+- Situacao: EM ANDAMENTO
+===============================
+========= RELATORIO ===========
+- Celulas do mapa: 16
+- Jogadores: 4
+- Jogadas totais: 12
+- Disputas: 3
+- Monstros derrotados: 1
+- Situacao: EM ANDAMENTO
+-------------------------------
+- GUERREIRO: jogadas 3 | disputas vencidas 2 | forca 4 | xp 15 | ouro 23
+- MAGO: jogadas 3 | disputas vencidas 0 | forca 2 | xp 0 | ouro 0
+- LADINO: jogadas 3 | disputas vencidas 0 | forca 3 | xp 0 | ouro 8
+- ARQUEIRO: jogadas 3 | disputas vencidas 1 | forca 3 | xp 0 | ouro 12
+===============================
+=========== ESTADO ============
+[INICIO]
+[1] OURO 15
+[2] OURO 8
+[3] ITEM ADAGA (P:5 F:+1)
+[4] MONSTRO LOBO (F:4 XP:15)
+[5] OURO 12 <- MAGO
+[6] ITEM ESCUDO (P:20 F:+3)
+[7] MONSTRO TROLL (F:7 XP:30) <- LADINO
+[8] VAZIA <- GUERREIRO
+[9] ITEM MACHADO (P:15 F:+4)
+[10] MONSTRO OGRO (F:8 XP:40)
+[11] OURO 30 <- ARQUEIRO
+[12] ITEM ARCO (P:10 F:+2)
+[13] MONSTRO HIDRA (F:10 XP:80)
+[14] VAZIA
+[15] MONSTRO DRAGAO (F:12 XP:100)
+[16] VAZIA
+[FIM]
+-------------------------------
+- GUERREIRO: casa 8 | forca 4 | xp 15 | ouro 35
+- MAGO: casa 5 | forca 2 | xp 0 | ouro 0
+- LADINO: casa 7 | forca 3 | xp 0 | ouro 8
+- ARQUEIRO: casa 11 | forca 3 | xp 0 | ouro 42
+- Situacao: EM ANDAMENTO
+===============================
+=========== RANKING ===========
+1. ARQUEIRO (AMARELO) | casa 11 | forca 3 | xp 0
+2. GUERREIRO (VERMELHO) | casa 8 | forca 4 | xp 15
+3. LADINO (VERDE) | casa 7 | forca 3 | xp 0
+4. MAGO (AZUL) | casa 5 | forca 2 | xp 0
+===============================
+=========== ESTADO ============
+[INICIO]
+[1] OURO 15
+[2] OURO 8
+[3] ITEM ADAGA (P:5 F:+1)
+[4] MONSTRO LOBO (F:4 XP:15)
+[5] OURO 12
+[6] ITEM ESCUDO (P:20 F:+3)
+[7] MONSTRO TROLL (F:7 XP:30)
+[8] VAZIA
+[9] ITEM MACHADO (P:15 F:+4)
+[10] MONSTRO OGRO (F:8 XP:40) <- LADINO
+[11] OURO 30 <- MAGO
+[12] ITEM ARCO (P:10 F:+2) <- GUERREIRO
+[13] MONSTRO HIDRA (F:10 XP:80)
+[14] VAZIA
+[15] MONSTRO DRAGAO (F:12 XP:100)
+[16] VAZIA
+[FIM] <- ARQUEIRO
+-------------------------------
+- GUERREIRO: casa 12 | forca 6 | xp 15 | ouro 25
+- MAGO: casa 11 | forca 2 | xp 0 | ouro 0
+- LADINO: casa 10 | forca 3 | xp 0 | ouro 8
+- ARQUEIRO: casa 17 | forca 3 | xp 0 | ouro 42
+- Situacao: VENCEDOR ARQUEIRO
+===============================
+=========== RANKING ===========
+1. ARQUEIRO (AMARELO) | casa 17 | forca 3 | xp 0
+2. GUERREIRO (VERMELHO) | casa 12 | forca 6 | xp 15
+3. MAGO (AZUL) | casa 11 | forca 2 | xp 0
+4. LADINO (VERDE) | casa 10 | forca 3 | xp 0
+===============================
+========= RELATORIO ===========
+- Celulas do mapa: 16
+- Jogadores: 4
+- Jogadas totais: 40
+- Disputas: 14
+- Monstros derrotados: 1
+- Situacao: VENCEDOR ARQUEIRO
+-------------------------------
+- GUERREIRO: jogadas 10 | disputas vencidas 7 | forca 6 | xp 15 | ouro 25
+- MAGO: jogadas 10 | disputas vencidas 0 | forca 2 | xp 0 | ouro 0
+- LADINO: jogadas 10 | disputas vencidas 4 | forca 3 | xp 0 | ouro 8
+- ARQUEIRO: jogadas 10 | disputas vencidas 3 | forca 3 | xp 0 | ouro 42
+===============================

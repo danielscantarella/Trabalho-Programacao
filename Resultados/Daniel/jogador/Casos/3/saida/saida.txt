@@ -1,0 +1,85 @@
+=========== ESTADO ============
+[INICIO] <- OTAVIO, PAULA, RAFAEL
+[1] VAZIA <- LUCAS
+[2] OURO 3
+[3] VAZIA <- MARIA
+[4] MONSTRO RATO (F:2 XP:5) <- NINA
+[5] VAZIA
+[6] VAZIA
+[FIM]
+-------------------------------
+- LUCAS: casa 1 | forca 3 | xp 0 | ouro 0
+- MARIA: casa 3 | forca 3 | xp 0 | ouro 0
+- NINA: casa 4 | forca 2 | xp 5 | ouro 0
+- OTAVIO: casa 0 | forca 4 | xp 0 | ouro 0
+- PAULA: casa 0 | forca 3 | xp 0 | ouro 0
+- RAFAEL: casa 0 | forca 1 | xp 0 | ouro 0
+- Situacao: EM ANDAMENTO
+===============================
+=========== ESTADO ============
+[INICIO] <- PAULA, RAFAEL
+[1] VAZIA <- LUCAS
+[2] OURO 3 <- MARIA
+[3] VAZIA <- OTAVIO
+[4] MONSTRO RATO (F:2 XP:5) <- NINA
+[5] VAZIA
+[6] VAZIA
+[FIM]
+-------------------------------
+- LUCAS: casa 1 | forca 3 | xp 0 | ouro 0
+- MARIA: casa 2 | forca 3 | xp 0 | ouro 0
+- NINA: casa 4 | forca 2 | xp 5 | ouro 0
+- OTAVIO: casa 3 | forca 4 | xp 0 | ouro 0
+- PAULA: casa 0 | forca 3 | xp 0 | ouro 0
+- RAFAEL: casa 0 | forca 1 | xp 0 | ouro 0
+- Situacao: EM ANDAMENTO
+===============================
+=========== RANKING ===========
+1. NINA (AZUL) | casa 4 | forca 2 | xp 5
+2. OTAVIO (PRETO) | casa 3 | forca 4 | xp 0
+3. MARIA (VERDE) | casa 2 | forca 3 | xp 0
+4. LUCAS (VERMELHO) | casa 1 | forca 3 | xp 0
+5. PAULA (BRANCO) | casa 0 | forca 3 | xp 0
+6. RAFAEL (ROSA) | casa 0 | forca 1 | xp 0
+===============================
+=========== ESTADO ============
+[INICIO] <- PAULA, RAFAEL
+[1] VAZIA <- NINA
+[2] OURO 3 <- LUCAS
+[3] VAZIA
+[4] MONSTRO RATO (F:2 XP:5)
+[5] VAZIA
+[6] VAZIA <- OTAVIO
+[FIM] <- MARIA
+-------------------------------
+- LUCAS: casa 2 | forca 3 | xp 0 | ouro 3
+- MARIA: casa 7 | forca 3 | xp 5 | ouro 0
+- NINA: casa 1 | forca 2 | xp 5 | ouro 0
+- OTAVIO: casa 6 | forca 4 | xp 0 | ouro 0
+- PAULA: casa 0 | forca 3 | xp 0 | ouro 0
+- RAFAEL: casa 0 | forca 1 | xp 0 | ouro 0
+- Situacao: VENCEDOR MARIA
+===============================
+=========== RANKING ===========
+1. MARIA (VERDE) | casa 7 | forca 3 | xp 5
+2. OTAVIO (PRETO) | casa 6 | forca 4 | xp 0
+3. LUCAS (VERMELHO) | casa 2 | forca 3 | xp 0
+4. NINA (AZUL) | casa 1 | forca 2 | xp 5
+5. PAULA (BRANCO) | casa 0 | forca 3 | xp 0
+6. RAFAEL (ROSA) | casa 0 | forca 1 | xp 0
+===============================
+========= RELATORIO ===========
+- Celulas do mapa: 6
+- Jogadores: 6
+- Jogadas totais: 14
+- Disputas: 9
+- Monstros derrotados: 2
+- Situacao: VENCEDOR MARIA
+-------------------------------
+- LUCAS: jogadas 3 | disputas vencidas 4 | forca 3 | xp 0 | ouro 3
+- MARIA: jogadas 3 | disputas vencidas 3 | forca 3 | xp 5 | ouro 0
+- NINA: jogadas 2 | disputas vencidas 1 | forca 2 | xp 5 | ouro 0
+- OTAVIO: jogadas 2 | disputas vencidas 1 | forca 4 | xp 0 | ouro 0
+- PAULA: jogadas 2 | disputas vencidas 0 | forca 3 | xp 0 | ouro 0
+- RAFAEL: jogadas 2 | disputas vencidas 0 | forca 1 | xp 0 | ouro 0
+===============================

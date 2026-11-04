@@ -1,0 +1,38 @@
+=========== ESTADO ============
+[INICIO]
+[1] OURO 10
+[2] MONSTRO GOBLIN (F:3 XP:10)
+[3] AVANCA 2 <- CARLA
+[4] VAZIA <- ANA
+[5] ITEM ESPADA (P:10 F:+2) <- BRUNO
+[6] MONSTRO ORC (F:6 XP:25)
+[7] VOLTA 3
+[8] OURO 20
+[9] VAZIA
+[10] MONSTRO DRAGAO (F:9 XP:50)
+[11] OURO 5
+[12] VAZIA
+[FIM]
+-------------------------------
+- ANA: casa 4 | forca 5 | xp 0 | ouro 10
+- BRUNO: casa 5 | forca 5 | xp 0 | ouro 0
+- CARLA: casa 3 | forca 4 | xp 0 | ouro 0
+- Situacao: EM ANDAMENTO
+===============================
+=========== RANKING ===========
+1. BRUNO (VERDE) | casa 13 | forca 5 | xp 0
+2. ANA (VERMELHO) | casa 5 | forca 7 | xp 0
+3. CARLA (AMARELO) | casa 3 | forca 4 | xp 0
+===============================
+========= RELATORIO ===========
+- Celulas do mapa: 12
+- Jogadores: 3
+- Jogadas totais: 23
+- Disputas: 9
+- Monstros derrotados: 0
+- Situacao: VENCEDOR BRUNO
+-------------------------------
+- ANA: jogadas 8 | disputas vencidas 6 | forca 7 | xp 0 | ouro 0
+- BRUNO: jogadas 8 | disputas vencidas 3 | forca 5 | xp 0 | ouro 25
+- CARLA: jogadas 7 | disputas vencidas 0 | forca 4 | xp 0 | ouro 0
+===============================

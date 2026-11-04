@@ -1,0 +1,53 @@
+=========== ESTADO ============
+[INICIO] <- PEDRO, JOAO
+[1] MONSTRO GUARDIAO (F:3 XP:7)
+[FIM]
+-------------------------------
+- PEDRO: casa 0 | forca 2 | xp 0 | ouro 0
+- JOAO: casa 0 | forca 2 | xp 0 | ouro 0
+- Situacao: EM ANDAMENTO
+===============================
+=========== ESTADO ============
+[INICIO] <- PEDRO, JOAO
+[1] MONSTRO GUARDIAO (F:3 XP:7)
+[FIM]
+-------------------------------
+- PEDRO: casa 0 | forca 2 | xp 0 | ouro 0
+- JOAO: casa 0 | forca 2 | xp 0 | ouro 0
+- Situacao: EM ANDAMENTO
+===============================
+=========== ESTADO ============
+[INICIO] <- PEDRO
+[1] MONSTRO GUARDIAO (F:3 XP:7)
+[FIM] <- JOAO
+-------------------------------
+- PEDRO: casa 0 | forca 2 | xp 0 | ouro 0
+- JOAO: casa 2 | forca 2 | xp 0 | ouro 0
+- Situacao: VENCEDOR JOAO
+===============================
+=========== RANKING ===========
+1. JOAO (VERDE) | casa 2 | forca 2 | xp 0
+2. PEDRO (AZUL) | casa 0 | forca 2 | xp 0
+===============================
+========= RELATORIO ===========
+- Celulas do mapa: 1
+- Jogadores: 2
+- Jogadas totais: 2
+- Disputas: 0
+- Monstros derrotados: 0
+- Situacao: VENCEDOR JOAO
+-------------------------------
+- PEDRO: jogadas 1 | disputas vencidas 0 | forca 2 | xp 0 | ouro 0
+- JOAO: jogadas 1 | disputas vencidas 0 | forca 2 | xp 0 | ouro 0
+===============================
+========= RELATORIO ===========
+- Celulas do mapa: 1
+- Jogadores: 2
+- Jogadas totais: 2
+- Disputas: 0
+- Monstros derrotados: 0
+- Situacao: VENCEDOR JOAO
+-------------------------------
+- PEDRO: jogadas 1 | disputas vencidas 0 | forca 2 | xp 0 | ouro 0
+- JOAO: jogadas 1 | disputas vencidas 0 | forca 2 | xp 0 | ouro 0
+===============================

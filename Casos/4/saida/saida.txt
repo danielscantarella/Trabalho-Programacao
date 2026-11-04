@@ -1,0 +1,106 @@
+=========== ESTADO ============
+[INICIO] <- ZECA, BIA
+[1] VOLTA 5
+[2] AVANCA 3 <- ALICE
+[3] VOLTA 1
+[4] VAZIA
+[5] AVANCA 4
+[6] VOLTA 2
+[7] VAZIA
+[8] VOLTA 7
+[9] AVANCA 1
+[10] VAZIA
+[11] AVANCA 10
+[12] VOLTA 4
+[FIM]
+-------------------------------
+- ZECA: casa 0 | forca 2 | xp 0 | ouro 0
+- ALICE: casa 2 | forca 2 | xp 0 | ouro 0
+- BIA: casa 0 | forca 3 | xp 0 | ouro 0
+- Situacao: EM ANDAMENTO
+===============================
+=========== ESTADO ============
+[INICIO]
+[1] VOLTA 5 <- ZECA
+[2] AVANCA 3 <- ALICE
+[3] VOLTA 1
+[4] VAZIA <- BIA
+[5] AVANCA 4
+[6] VOLTA 2
+[7] VAZIA
+[8] VOLTA 7
+[9] AVANCA 1
+[10] VAZIA
+[11] AVANCA 10
+[12] VOLTA 4
+[FIM]
+-------------------------------
+- ZECA: casa 1 | forca 2 | xp 0 | ouro 0
+- ALICE: casa 2 | forca 2 | xp 0 | ouro 0
+- BIA: casa 4 | forca 3 | xp 0 | ouro 0
+- Situacao: EM ANDAMENTO
+===============================
+=========== ESTADO ============
+[INICIO] <- ZECA
+[1] VOLTA 5
+[2] AVANCA 3 <- BIA
+[3] VOLTA 1
+[4] VAZIA <- ALICE
+[5] AVANCA 4
+[6] VOLTA 2
+[7] VAZIA
+[8] VOLTA 7
+[9] AVANCA 1
+[10] VAZIA
+[11] AVANCA 10
+[12] VOLTA 4
+[FIM]
+-------------------------------
+- ZECA: casa 0 | forca 2 | xp 0 | ouro 0
+- ALICE: casa 4 | forca 2 | xp 0 | ouro 0
+- BIA: casa 2 | forca 3 | xp 0 | ouro 0
+- Situacao: EM ANDAMENTO
+===============================
+=========== RANKING ===========
+1. ALICE (CINZA) | casa 4 | forca 2 | xp 0
+2. BIA (MARROM) | casa 2 | forca 3 | xp 0
+3. ZECA (LARANJA) | casa 0 | forca 2 | xp 0
+===============================
+=========== ESTADO ============
+[INICIO]
+[1] VOLTA 5
+[2] AVANCA 3
+[3] VOLTA 1 <- ZECA
+[4] VAZIA <- BIA
+[5] AVANCA 4
+[6] VOLTA 2
+[7] VAZIA
+[8] VOLTA 7
+[9] AVANCA 1
+[10] VAZIA
+[11] AVANCA 10
+[12] VOLTA 4
+[FIM] <- ALICE
+-------------------------------
+- ZECA: casa 3 | forca 2 | xp 0 | ouro 0
+- ALICE: casa 13 | forca 2 | xp 0 | ouro 0
+- BIA: casa 4 | forca 3 | xp 0 | ouro 0
+- Situacao: VENCEDOR ALICE
+===============================
+========= RELATORIO ===========
+- Celulas do mapa: 12
+- Jogadores: 3
+- Jogadas totais: 17
+- Disputas: 6
+- Monstros derrotados: 0
+- Situacao: VENCEDOR ALICE
+-------------------------------
+- ZECA: jogadas 6 | disputas vencidas 0 | forca 2 | xp 0 | ouro 0
+- ALICE: jogadas 6 | disputas vencidas 1 | forca 2 | xp 0 | ouro 0
+- BIA: jogadas 5 | disputas vencidas 5 | forca 3 | xp 0 | ouro 0
+===============================
+=========== RANKING ===========
+1. ALICE (CINZA) | casa 13 | forca 2 | xp 0
+2. BIA (MARROM) | casa 4 | forca 3 | xp 0
+3. ZECA (LARANJA) | casa 3 | forca 2 | xp 0
+===============================

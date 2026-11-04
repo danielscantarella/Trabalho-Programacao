@@ -1,0 +1,73 @@
+=========== ESTADO ============
+[INICIO] <- SOLO
+[1] OURO 5
+[2] MONSTRO SLIME (F:1 XP:3)
+[3] VAZIA
+[4] AVANCA 2
+[5] ITEM BOTA (P:5 F:+1)
+[6] VOLTA 2
+[7] MONSTRO GOLEM (F:3 XP:20)
+[8] OURO 7
+[FIM]
+-------------------------------
+- SOLO: casa 0 | forca 1 | xp 0 | ouro 0
+- Situacao: EM ANDAMENTO
+===============================
+=========== ESTADO ============
+[INICIO]
+[1] OURO 5
+[2] MONSTRO SLIME (F:1 XP:3)
+[3] VAZIA
+[4] AVANCA 2
+[5] ITEM BOTA (P:5 F:+1)
+[6] VOLTA 2
+[7] MONSTRO GOLEM (F:3 XP:20)
+[8] OURO 7
+[FIM] <- SOLO
+-------------------------------
+- SOLO: casa 9 | forca 1 | xp 0 | ouro 5
+- Situacao: VENCEDOR SOLO
+===============================
+=========== ESTADO ============
+[INICIO]
+[1] OURO 5
+[2] MONSTRO SLIME (F:1 XP:3)
+[3] VAZIA
+[4] AVANCA 2
+[5] ITEM BOTA (P:5 F:+1)
+[6] VOLTA 2
+[7] MONSTRO GOLEM (F:3 XP:20)
+[8] OURO 7
+[FIM] <- SOLO
+-------------------------------
+- SOLO: casa 9 | forca 1 | xp 0 | ouro 5
+- Situacao: VENCEDOR SOLO
+===============================
+=========== ESTADO ============
+[INICIO]
+[1] OURO 5
+[2] MONSTRO SLIME (F:1 XP:3)
+[3] VAZIA
+[4] AVANCA 2
+[5] ITEM BOTA (P:5 F:+1)
+[6] VOLTA 2
+[7] MONSTRO GOLEM (F:3 XP:20)
+[8] OURO 7
+[FIM] <- SOLO
+-------------------------------
+- SOLO: casa 9 | forca 1 | xp 0 | ouro 5
+- Situacao: VENCEDOR SOLO
+===============================
+=========== RANKING ===========
+1. SOLO (DOURADO) | casa 9 | forca 1 | xp 0
+===============================
+========= RELATORIO ===========
+- Celulas do mapa: 8
+- Jogadores: 1
+- Jogadas totais: 3
+- Disputas: 0
+- Monstros derrotados: 0
+- Situacao: VENCEDOR SOLO
+-------------------------------
+- SOLO: jogadas 3 | disputas vencidas 0 | forca 1 | xp 0 | ouro 5
+===============================

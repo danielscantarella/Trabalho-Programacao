@@ -1,0 +1,15 @@
+Arquivos
+	saida.txt=10
+Valgrind
+	desconto=0.3
+Validações
+	main=7.0
+	completo=0
+	jogador=1.5
+    mapa=0.5
+    celula=0.5
+    acao_monstro=0.5
+
+LimiteTempo=30
+MainAgrupada
+

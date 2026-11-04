@@ -1,0 +1,132 @@
+=========== ESTADO ============
+[INICIO] <- ANA, BRUNO, CARLA, DIEGO
+[1] OURO 10
+[2] MONSTRO GOBLIN (F:3 XP:10)
+[3] AVANCA 2
+[4] VAZIA
+[5] ITEM ESPADA (P:10 F:+2)
+[6] MONSTRO ORC (F:6 XP:25)
+[7] VOLTA 3
+[8] OURO 20
+[9] VAZIA
+[10] MONSTRO DRAGAO (F:9 XP:50)
+[11] OURO 5
+[12] VAZIA
+[FIM]
+-------------------------------
+- ANA: casa 0 | forca 5 | xp 0 | ouro 0
+- BRUNO: casa 0 | forca 5 | xp 0 | ouro 0
+- CARLA: casa 0 | forca 4 | xp 0 | ouro 0
+- DIEGO: casa 0 | forca 6 | xp 0 | ouro 0
+- Situacao: EM ANDAMENTO
+===============================
+=========== RANKING ===========
+1. DIEGO (AZUL) | casa 0 | forca 6 | xp 0
+2. ANA (VERMELHO) | casa 0 | forca 5 | xp 0
+3. BRUNO (VERDE) | casa 0 | forca 5 | xp 0
+4. CARLA (AMARELO) | casa 0 | forca 4 | xp 0
+===============================
+========= RELATORIO ===========
+- Celulas do mapa: 12
+- Jogadores: 4
+- Jogadas totais: 0
+- Disputas: 0
+- Monstros derrotados: 0
+- Situacao: EM ANDAMENTO
+-------------------------------
+- ANA: jogadas 0 | disputas vencidas 0 | forca 5 | xp 0 | ouro 0
+- BRUNO: jogadas 0 | disputas vencidas 0 | forca 5 | xp 0 | ouro 0
+- CARLA: jogadas 0 | disputas vencidas 0 | forca 4 | xp 0 | ouro 0
+- DIEGO: jogadas 0 | disputas vencidas 0 | forca 6 | xp 0 | ouro 0
+===============================
+=========== ESTADO ============
+[INICIO] <- BRUNO, CARLA, DIEGO
+[1] OURO 10 <- ANA
+[2] MONSTRO GOBLIN (F:3 XP:10)
+[3] AVANCA 2
+[4] VAZIA
+[5] ITEM ESPADA (P:10 F:+2)
+[6] MONSTRO ORC (F:6 XP:25)
+[7] VOLTA 3
+[8] OURO 20
+[9] VAZIA
+[10] MONSTRO DRAGAO (F:9 XP:50)
+[11] OURO 5
+[12] VAZIA
+[FIM]
+-------------------------------
+- ANA: casa 1 | forca 5 | xp 0 | ouro 10
+- BRUNO: casa 0 | forca 5 | xp 0 | ouro 0
+- CARLA: casa 0 | forca 4 | xp 0 | ouro 0
+- DIEGO: casa 0 | forca 6 | xp 0 | ouro 0
+- Situacao: EM ANDAMENTO
+===============================
+=========== ESTADO ============
+[INICIO] <- DIEGO
+[1] OURO 10 <- ANA
+[2] MONSTRO GOBLIN (F:3 XP:10)
+[3] AVANCA 2
+[4] VAZIA <- CARLA
+[5] ITEM ESPADA (P:10 F:+2) <- BRUNO
+[6] MONSTRO ORC (F:6 XP:25)
+[7] VOLTA 3
+[8] OURO 20
+[9] VAZIA
+[10] MONSTRO DRAGAO (F:9 XP:50)
+[11] OURO 5
+[12] VAZIA
+[FIM]
+-------------------------------
+- ANA: casa 1 | forca 5 | xp 0 | ouro 10
+- BRUNO: casa 5 | forca 5 | xp 0 | ouro 0
+- CARLA: casa 4 | forca 4 | xp 0 | ouro 0
+- DIEGO: casa 0 | forca 6 | xp 0 | ouro 0
+- Situacao: EM ANDAMENTO
+===============================
+=========== RANKING ===========
+1. DIEGO (AZUL) | casa 4 | forca 6 | xp 0
+2. CARLA (AMARELO) | casa 3 | forca 4 | xp 0
+3. ANA (VERMELHO) | casa 2 | forca 5 | xp 10
+4. BRUNO (VERDE) | casa 1 | forca 5 | xp 0
+===============================
+=========== ESTADO ============
+[INICIO]
+[1] OURO 10
+[2] MONSTRO GOBLIN (F:3 XP:10) <- BRUNO
+[3] AVANCA 2
+[4] VAZIA <- ANA
+[5] ITEM ESPADA (P:10 F:+2) <- CARLA
+[6] MONSTRO ORC (F:6 XP:25)
+[7] VOLTA 3
+[8] OURO 20
+[9] VAZIA
+[10] MONSTRO DRAGAO (F:9 XP:50)
+[11] OURO 5
+[12] VAZIA
+[FIM] <- DIEGO
+-------------------------------
+- ANA: casa 4 | forca 5 | xp 10 | ouro 10
+- BRUNO: casa 2 | forca 5 | xp 0 | ouro 0
+- CARLA: casa 5 | forca 4 | xp 0 | ouro 0
+- DIEGO: casa 13 | forca 6 | xp 0 | ouro 25
+- Situacao: VENCEDOR DIEGO
+===============================
+========= RELATORIO ===========
+- Celulas do mapa: 12
+- Jogadores: 4
+- Jogadas totais: 28
+- Disputas: 13
+- Monstros derrotados: 1
+- Situacao: VENCEDOR DIEGO
+-------------------------------
+- ANA: jogadas 7 | disputas vencidas 3 | forca 5 | xp 10 | ouro 10
+- BRUNO: jogadas 7 | disputas vencidas 4 | forca 5 | xp 0 | ouro 0
+- CARLA: jogadas 7 | disputas vencidas 0 | forca 4 | xp 0 | ouro 0
+- DIEGO: jogadas 7 | disputas vencidas 6 | forca 6 | xp 0 | ouro 25
+===============================
+=========== RANKING ===========
+1. DIEGO (AZUL) | casa 13 | forca 6 | xp 0
+2. CARLA (AMARELO) | casa 5 | forca 4 | xp 0
+3. ANA (VERMELHO) | casa 4 | forca 5 | xp 10
+4. BRUNO (VERDE) | casa 2 | forca 5 | xp 0
+===============================
