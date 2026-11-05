@@ -108,28 +108,17 @@ int comparaOrdJogador(const void *d1, const void *d2){
     Jogador *j1 = *(Jogador **)d1;
     Jogador *j2 = *(Jogador **)d2;
 
-    if (j1->posicao > j2->posicao){
-        return -1;
-    } else if (j1->posicao < j2->posicao){
-        return 1;
-    } else{
+    if (j1->posicao > j2->posicao) return -1;
+    if (j1->posicao < j2->posicao) return 1;
 
-        if (j1->forca > j2->forca){
-            return -1;
-        } else if (j1->forca < j2->forca){
-            return 1;
-        } else{
+    if (j1->forca > j2->forca) return -1;
+    if (j1->forca < j2->forca) return 1;
+    
+    if (j1->xp > j2->xp) return -1;
+    if (j1->xp < j2->xp) return 1;
+    
+    return strcmp(j1->nome, j2->nome);
 
-            if (j1->xp > j2->xp){
-                return -1;
-            } else if (j1->xp < j2->xp){
-                return 1;
-            } else{
-
-                return strcmp(j1->nome, j2->nome);
-            }
-        }
-    }
 }
 
 /**
