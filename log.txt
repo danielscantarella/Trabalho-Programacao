@@ -19,13 +19,13 @@ CRIANDO O DIRETÓRIO DE RESULTADO PARA Daniel:
 CHECKANDO OS ARQUIVOS DO ALUNO:
  - Arquivo esperado 'Respostas/Daniel/acao_monstro.c' encontrado!
  - Arquivo esperado 'Respostas/Daniel/acao_monstro.h' encontrado!
- - Arquivo esperado 'Respostas/Daniel/celula.c' não encontrado!
+ - Arquivo esperado 'Respostas/Daniel/celula.c' encontrado!
  - Arquivo esperado 'Respostas/Daniel/celula.h' encontrado!
  - Arquivo esperado 'Respostas/Daniel/jogador.c' encontrado!
  - Arquivo esperado 'Respostas/Daniel/jogador.h' encontrado!
  - Arquivo esperado 'Respostas/Daniel/main.c' não encontrado!
- - Arquivo esperado 'Respostas/Daniel/mapa.c' não encontrado!
- - Arquivo esperado 'Respostas/Daniel/mapa.h' não encontrado!
+ - Arquivo esperado 'Respostas/Daniel/mapa.c' encontrado!
+ - Arquivo esperado 'Respostas/Daniel/mapa.h' encontrado!
  - Arquivos esperados enviados: Faltando!
 
 COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
@@ -79,11 +79,13 @@ COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
  - Arquivo de output gerado: Resultados/Daniel/completo/result_compilation.txt
  - Compilação dos arquivos do aluno na pasta jogador ok!
  - Arquivo de output gerado: Resultados/Daniel/jogador/result_compilation.txt
- - Erro de compilação! Verifique os arquivos da pasta mapa.
- - Erro de compilação! Verifique os arquivos da pasta celula.
+ - Compilação dos arquivos do aluno na pasta mapa ok!
+ - Arquivo de output gerado: Resultados/Daniel/mapa/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta celula ok!
+ - Arquivo de output gerado: Resultados/Daniel/celula/result_compilation.txt
  - Compilação dos arquivos do aluno na pasta acao_monstro ok!
  - Arquivo de output gerado: Resultados/Daniel/acao_monstro/result_compilation.txt
- - Arquivos Compilados: Erro!: 3 arquivos com erros de compilacao.
+ - Arquivos Compilados: Erro!: 1 arquivos com erros de compilacao.
 
  - Arquivos Compilados: ok!
 
@@ -102,17 +104,17 @@ LINKANDO OS ARQUIVOS COMPILADOS:
  - Arquivo de output gerado: Resultados/Daniel/jogador/result_linking.txt
  - Pasta mapa:
  - Gerando o binário prog linkando com o(s) arquivo(s) mapa/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/Daniel/mapa/result_linking.txt
  - Pasta celula:
  - Gerando o binário prog linkando com o(s) arquivo(s) celula/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/Daniel/celula/result_linking.txt
  - Pasta acao_monstro:
  - Gerando o binário prog linkando com o(s) arquivo(s) acao_monstro/*.o
  - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/Daniel/acao_monstro/result_linking.txt
- - Arquivos Linkados: Erro! 4 arquivos com erros de linkagem.
+ - Arquivos Linkados: Erro! 2 arquivos com erros de linkagem.
 
 EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta main / Caso 1:
@@ -252,88 +254,108 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Nota para a pasta jogador (máximo 1.5) - 100.00 de 100 - 100.00% de 1.5: 1.50.
  -----
  - Pasta mapa / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 30.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Daniel/mapa/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 50, frees: 50, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta mapa / Caso 10:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 30.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Daniel/mapa/Casos/10/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 50, frees: 50, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta mapa / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 30.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Daniel/mapa/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 74, frees: 74, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta mapa / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 30.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Daniel/mapa/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 56, frees: 56, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta mapa / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 30.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Daniel/mapa/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 57, frees: 57, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta mapa / Caso 5:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 30.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Daniel/mapa/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 75, frees: 75, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta mapa / Caso 6:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 30.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Daniel/mapa/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 32, frees: 32, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta mapa / Caso 7:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 30.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Daniel/mapa/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 16, frees: 16, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta mapa / Caso 8:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 30.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Daniel/mapa/Casos/8/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 74, frees: 74, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta mapa / Caso 9:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 30.0% (desconto do valgrind) = 0 de 10 pontos.
- - Nota para a pasta mapa (máximo 0.5) - 0 de 100 - 0% de 0.5: 0.
+ - Arquivo de output gerado: Resultados/Daniel/mapa/Casos/9/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 205, frees: 205, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta mapa (máximo 0.5) - 100.00 de 100 - 100.00% de 0.5: .50.
  -----
  - Pasta celula / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 30.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Daniel/celula/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 50, frees: 50, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta celula / Caso 10:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 30.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Daniel/celula/Casos/10/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 50, frees: 50, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta celula / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 30.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Daniel/celula/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 74, frees: 74, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta celula / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 30.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Daniel/celula/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 56, frees: 56, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta celula / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 30.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Daniel/celula/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 57, frees: 57, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta celula / Caso 5:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 30.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Daniel/celula/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 75, frees: 75, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta celula / Caso 6:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 30.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Daniel/celula/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 32, frees: 32, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta celula / Caso 7:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 30.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Daniel/celula/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 16, frees: 16, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta celula / Caso 8:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 30.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Daniel/celula/Casos/8/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 74, frees: 74, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta celula / Caso 9:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 30.0% (desconto do valgrind) = 0 de 10 pontos.
- - Nota para a pasta celula (máximo 0.5) - 0 de 100 - 0% de 0.5: 0.
+ - Arquivo de output gerado: Resultados/Daniel/celula/Casos/9/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 205, frees: 205, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta celula (máximo 0.5) - 100.00 de 100 - 100.00% de 0.5: .50.
  -----
  - Pasta acao_monstro / Caso 1:
  - Arquivo de output gerado: Resultados/Daniel/acao_monstro/Casos/1/result_valgrind.txt.
@@ -394,9 +416,9 @@ RESULTADOS FINAIS
 
 ----------------------------------------------------------------------------
 Aluno: Daniel
- - Arquivos Esperados Corretos: 5 de 9
- - Pastas Compiladas Corretamente: 3 de 6 
- - Pastas Linkadas Corretamente: 2 de 6
+ - Arquivos Esperados Corretos: 8 de 9
+ - Pastas Compiladas Corretamente: 5 de 6 
+ - Pastas Linkadas Corretamente: 4 de 6
  - Teste main
  - Resultados corretos: 0 de 10
  - Valgrinds corretos: 0 de 10
@@ -410,19 +432,19 @@ Aluno: Daniel
  - Valgrinds corretos: 10 de 10
  - Nota de Daniel para o teste jogador: 1.50
  - Teste mapa
- - Resultados corretos: 0 de 10
- - Valgrinds corretos: 0 de 10
- - Nota de Daniel para o teste mapa: 0
+ - Resultados corretos: 10 de 10
+ - Valgrinds corretos: 10 de 10
+ - Nota de Daniel para o teste mapa: .50
  - Teste celula
- - Resultados corretos: 0 de 10
- - Valgrinds corretos: 0 de 10
- - Nota de Daniel para o teste celula: 0
+ - Resultados corretos: 10 de 10
+ - Valgrinds corretos: 10 de 10
+ - Nota de Daniel para o teste celula: .50
  - Teste acao_monstro
  - Resultados corretos: 10 de 10
  - Valgrinds corretos: 10 de 10
  - Nota de Daniel para o teste acao_monstro: .50
- - Nota de Daniel: 0+(1.50)+(.50)+(0)+(0)+(0)+(0)
- - Nota de Daniel: 2.00
+ - Nota de Daniel: 0+(1.50)+(.50)+(0)+(.50)+(0)+(.50)
+ - Nota de Daniel: 3.00
 
 ----------------------------------------------------------------------------
 

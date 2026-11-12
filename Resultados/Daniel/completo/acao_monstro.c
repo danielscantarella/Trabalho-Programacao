@@ -35,7 +35,7 @@ Monstro *leMonstro(){
     int xp;
     int forca;
 
-    scanf("%s %d %d\n", nome, &forca, &xp);
+    scanf(" %s %d %d\n", nome, &forca, &xp);
     Monstro *m = criaMonstro(nome, forca, xp);
     return m;
 }

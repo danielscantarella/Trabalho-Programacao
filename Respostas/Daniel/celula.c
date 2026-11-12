@@ -93,7 +93,14 @@ int estaOcupadaCelula(Celula *c){
  * @param c Célula inicializada
  * @param posicao Número da casa da célula no mapa
  */
-void imprimeCelula(Celula *c, int posicao);
+void imprimeCelula(Celula *c, int posicao){
+    printf("[%d] ",posicao);
+    c->imprime(c->acao);
+    if (estaOcupadaCelula(c)){
+        printf(" <- %s", obtemNomeJogador(c->ocupante));
+    }
+    printf("\n");
+}
 /**
  * @brief Desaloca a ação da célula (usando a função de callback 'desaloca') e depois a própria célula.
  * O ocupante não é desalocado.

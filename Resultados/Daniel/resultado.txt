@@ -1,6 +1,6 @@
-Arquivos Esperados Corretos: 5 de 9
-Pastas Compiladas Corretamente: 3 de 6 
-Pastas Linkadas Corretamente: 2 de 6
+Arquivos Esperados Corretos: 8 de 9
+Pastas Compiladas Corretamente: 5 de 6 
+Pastas Linkadas Corretamente: 4 de 6
 Teste main
   - Resultados corretos: 0 de 10
   - Valgrinds corretos: 0 de 10
@@ -14,16 +14,16 @@ Teste jogador
   - Valgrinds corretos: 10 de 10
 Nota de Daniel para o teste jogador: 1.50
 Teste mapa
-  - Resultados corretos: 0 de 10
-  - Valgrinds corretos: 0 de 10
-Nota de Daniel para o teste mapa: 0
+  - Resultados corretos: 10 de 10
+  - Valgrinds corretos: 10 de 10
+Nota de Daniel para o teste mapa: .50
 Teste celula
-  - Resultados corretos: 0 de 10
-  - Valgrinds corretos: 0 de 10
-Nota de Daniel para o teste celula: 0
+  - Resultados corretos: 10 de 10
+  - Valgrinds corretos: 10 de 10
+Nota de Daniel para o teste celula: .50
 Teste acao_monstro
   - Resultados corretos: 10 de 10
   - Valgrinds corretos: 10 de 10
 Nota de Daniel para o teste acao_monstro: .50
-Nota de Daniel: 0+(1.50)+(.50)+(0)+(0)+(0)+(0)
-Nota de Daniel: 2.00
+Nota de Daniel: 0+(1.50)+(.50)+(0)+(.50)+(0)+(.50)
+Nota de Daniel: 3.00
